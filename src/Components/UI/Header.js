@@ -1,7 +1,7 @@
-import React, {Component, useState} from 'react';
-import './UI/_styles.scss'
+import React, {useState} from 'react';
+import './_styles.scss'
 import { ShoppingCart } from "@material-ui/icons";
-import ShoppingCartCollection from './UI/ShoppingCart/ShoppingCartCollection';
+import ShoppingCartCollection from './ShoppingCart/ShoppingCartCollection';
 import { toast } from 'react-toastify';
 
 export default function Header () {

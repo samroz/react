@@ -4,7 +4,7 @@ import '../../App.css'
 import Rating from "@material-ui/lab/Rating";
 import { ShoppingCart } from "@material-ui/icons";
 import ShoppingCartCollection from './ShoppingCart/ShoppingCartCollection';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Products() {

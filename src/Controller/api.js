@@ -6,7 +6,6 @@ class apiController {
     }
 
     getItem = async({id}) => {
-        console.log("api", id);
         const data = fetch(`https://fakestoreapi.com/products/${id}`)
         return data;
     }

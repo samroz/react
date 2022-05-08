@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
-import api from '../../Controller/api'
-import Header from '../Header';
+import React from 'react';
+import Header from './Header';
 import Products from './Products';
 import '../../App.css'
 

@@ -43,15 +43,14 @@ class ShoppingCartCollection extends Component{
    fetchItem = async ({id}) => {
       const item = await apiController.getItem({id}).then(res=>res.json())
       .then(json=>json);
+      toast("Item is added to cart");
       arr.push(item)
    }
 
     componentDidUpdate(prevProps) {
       if (prevProps.itemClickedId !== this.props.itemClickedId) {
         this.fetchItem({id: this.props.itemClickedId});
-      } else {
-        
-      }
+        }
     }
 
     render(){
